@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { checkAdmin }  = require('../../lib/middleware/middleware.js');
+const { checkAdmin } = require('../../lib/middleware/middleware.js');
 const render = require('../../lib/render');
 const Layout = require('../../views/Layout');
 
@@ -30,6 +30,7 @@ router.get('/cookie', (req, res) => {
 });
 
 router.get('/get', (req, res) => {
+  console.log(req.url);
   res.json({ ttt: 'ttt' });
 });
 

@@ -48,6 +48,6 @@ app.listen(PORT, async () => {
     await sequelize.authenticate();
     console.log('Соединение с базой установлено!');
   } catch (err) {
-    console.log(err, 'Error!');
+    console.log(err, 'Error!'); 
   }
 });

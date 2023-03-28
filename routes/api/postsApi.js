@@ -60,7 +60,7 @@ router
               type: QueryTypes.SELECT,
             }
           )
-          .then((allPosts) => res.json(allPosts))
+          .then((allPosts) => console.log(allPosts))
           .catch((error) => res.status(500).json({ message: error.message }));
     }
   })

@@ -1,7 +1,6 @@
 {
   "development": {
     "use_env_variable": "DB",
-    "query": "raw:true",
     "define": {
       "timestamps": false
     }

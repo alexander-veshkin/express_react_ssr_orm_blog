@@ -1,7 +1,7 @@
 'use strict';
 
 const { sequelize } = require('../models');
-const { users } = require('../fixtures/users')
+const { users } = require('../fixtures/users')``
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
